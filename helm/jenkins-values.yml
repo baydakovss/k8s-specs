@@ -1,5 +1,6 @@
 # helm install stable/jenkins --name jenkins --namespace jenkins --values helm/jenkins-values --set master.hostName=...
-master:
+#master:
+controller:
   imageTag: "2.151-alpine"
   cpu: "500m"
   memory: "500Mi"
